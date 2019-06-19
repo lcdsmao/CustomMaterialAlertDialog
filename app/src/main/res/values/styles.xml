@@ -6,6 +6,72 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="materialAlertDialogTheme">@style/AlertDialogTheme</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorSurface">#212121</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/TitleTextStyle</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/BodyTextStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+    </style>
+
+    <style name="TitleTextStyle" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textColor">#fafafa</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="BodyTextStyle" parent="MaterialAlertDialog.MaterialComponents.Body.Text">
+        <item name="android:textColor">#c7c7c7</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">#d81b60</item>
+        <item name="rippleColor">#ad1457</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">#757575</item>
+        <item name="rippleColor">#a4a4a4</item>
+    </style>
+
+    <style name="AlertDialogTheme.Center" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorSurface">#212121</item>
+        <item name="materialAlertDialogTitlePanelStyle">@style/TitlePaneStyleCenter</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/TitleTextStyleCenter</item>
+        <item name="materialAlertDialogTitleIconStyle">@style/TitleIconStyleCenter</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/BodyTextStyleCenter</item>
+        <item name="buttonBarStyle">@style/ButtonBarStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+    </style>
+
+    <style name="TitlePaneStyleCenter" parent="MaterialAlertDialog.MaterialComponents.Title.Panel.CenterStacked">
+        <item name="android:background">#f5f5f5</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="TitleIconStyleCenter" parent="MaterialAlertDialog.MaterialComponents.Title.Icon.CenterStacked">
+        <item name="android:tint">#d50000</item>
+    </style>
+
+    <style name="TitleTextStyleCenter" parent="MaterialAlertDialog.MaterialComponents.Title.Text.CenterStacked">
+        <item name="android:textColor">#484848</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="BodyTextStyleCenter" parent="MaterialAlertDialog.MaterialComponents.Body.Text">
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">#c7c7c7</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ButtonBarStyle">
+        <item name="android:background">#000000</item>
     </style>
 
 </resources>

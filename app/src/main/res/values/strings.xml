@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">CustomMaterialAlertDialog</string>
     <string name="show_dialog">Show Dialog</string>
+    <string name="show_dialog_center">Show Dialog Center</string>
     <string name="title">Alert Dialog Title</string>
     <string name="positive">OK</string>
     <string name="negative">Cancel</string>

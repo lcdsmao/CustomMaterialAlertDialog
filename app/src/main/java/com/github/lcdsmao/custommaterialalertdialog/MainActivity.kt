@@ -13,5 +13,8 @@ class MainActivity : AppCompatActivity() {
     button_show_dialog.setOnClickListener {
       CustomAlertDialog().show(supportFragmentManager, null)
     }
+    button_show_dialog_center.setOnClickListener {
+      CustomAlertDialogCenter().show(supportFragmentManager, null)
+    }
   }
 }
