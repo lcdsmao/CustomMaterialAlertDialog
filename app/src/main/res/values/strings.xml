@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">CustomMaterialAlertDialog</string>
+    <string name="show_dialog">Show Dialog</string>
+    <string name="title">Alert Dialog Title</string>
+    <string name="positive">OK</string>
+    <string name="negative">Cancel</string>
+    <string name="message">Dialogs inform users about a task and can contain critical information, require decisions, or involve multiple tasks.</string>
 </resources>
